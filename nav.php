@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="assets/css/nav.css">
-
 
 <nav>
     <div class="dFlex-row container">
@@ -778,4 +776,3 @@
 </nav>
 
 
-<script src="assets/js/nav.js"></script>

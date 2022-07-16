@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazirmatn UI FD, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  direction: rtl;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background-color: #48CFAE;
+}
+nav .container {
+  max-width: 80%;
+}
+nav .dFlex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .dFlex-row ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+nav .dFlex-row .dropDown {
+  position: relative;
+}
+nav .dFlex-row .dropDown i {
+  color: #f5f5f5;
+}
+nav .dFlex-row .dropDown a {
+  color: #fff;
+}
+nav .dFlex-row .dropDown .subMenu {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 15px;
+  position: absolute;
+  background-color: #fff;
+}
+nav .dFlex-row .dropDown .subMenu li {
+  padding: 5px;
+}
+nav .dFlex-row .dropDown .subMenu li a {
+  color: #000;
+}
+nav .dFlex-row .dropDown2, nav .dFlex-row .dropDown3 {
+  position: relative;
+  display: flex;
+}
+nav .dFlex-row .dropDown2 .subMenu2, nav .dFlex-row .dropDown2 .subMenu3, nav .dFlex-row .dropDown3 .subMenu2, nav .dFlex-row .dropDown3 .subMenu3 {
+  top: -18px;
+  right: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin-top: 15px;
+  position: absolute;
+  background-color: #fff;
+}
+nav .dFlex-row .dropDown2 a, nav .dFlex-row .dropDown3 a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .dFlex-row .dropDown2 i, nav .dFlex-row .dropDown3 i {
+  margin-top: 2px;
+  font-size: 18px;
+  color: #000;
+}
+nav .dFlex-row ul {
+  list-style: none;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=nav.css.map */

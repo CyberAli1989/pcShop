@@ -1,0 +1,25 @@
+{
+  "name": "pcshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberAli1989/pcShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyberAli1989/pcShop/issues"
+  },
+  "homepage": "https://github.com/CyberAli1989/pcShop#readme",
+  "dependencies": {
+    "boxicons": "^2.1.2",
+    "jquery": "^3.6.0",
+    "vazirmatn": "^33.0.3"
+  }
+}
