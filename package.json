@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/CyberAli1989/pcShop#readme",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "boxicons": "^2.1.2",
     "jquery": "^3.6.0",
+    "owl.carousel": "^2.3.4",
     "vazirmatn": "^33.0.3"
   }
 }

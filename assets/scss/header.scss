@@ -24,6 +24,7 @@ header  {
     }
   }
   .topNav{
+    position: relative;
     width: 100%;
     ul {
       list-style: none;
@@ -62,7 +63,7 @@ header  {
     border-radius: 0 0 15px 15px;
     border-top: none;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     left: 40px;
     transition: 300ms;
     i{
@@ -82,6 +83,12 @@ header  {
       width: 100%;
       align-items: center;
       .social{
+        i.bx-search{
+          display: none;
+        }
+        i.bx-menu{
+          display: none;
+        }
         i{
           font-size: 30px;
           cursor: pointer;
@@ -105,4 +112,51 @@ header  {
       }
     }
   }
+}
+
+@media(max-width: 1000px){
+  header{
+    .topNav{
+      display: none;
+    }
+    .logo{
+      .container{
+        max-width: 98%;
+      }
+      .dFlex-row{
+
+        .logoImg{
+          width: 90px;
+          height: 50px;
+        }
+
+        .social{
+          display: flex;
+          i{
+            padding: 0 10px;
+            font-size: 20px;
+          }
+          i.bx-search{
+            display: block;
+          }
+          i.bx-menu{
+            display: block;
+          }
+          i.bxl-instagram{
+            display: none;
+          }
+        }
+        .otherIcons{
+          i{
+            padding: 0 6px;
+            font-size: 20px;
+          }
+          i.bx-search{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
 }

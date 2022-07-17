@@ -56,7 +56,9 @@
         <div class="container">
             <div class="dFlex-row">
                 <div class="social">
+                    <i class="bx bx-menu"></i>
                     <i class="bx bxl-instagram"></i>
+                    <i class="bx bx-search"></i>
                 </div>
                 <div class="logoImg">
                     <img src="assets/img/logo.png" alt="">
