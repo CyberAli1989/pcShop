@@ -1,5 +1,5 @@
 # pcShop 
-Redesign samanpc.com \n
+Redesign samanpc.com 
 run npm install in terminal 
 
 ![](pcShop.png)
